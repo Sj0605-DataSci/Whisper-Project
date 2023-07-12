@@ -3,7 +3,7 @@ import json
 import base64
 
 
-url = "https://run.cerebrium.ai/v2/p-efe0c57a/synth/predict"
+endpoint = "https://run.cerebrium.ai/v2/p-efe0c57a/synth/predict"
 
 audio_path = r"<PATH/TO/AUDIO/FILE>" # Tested with .mp3 files
 
@@ -16,6 +16,6 @@ headers = {
     'Content-Type': 'application/json'
 }
 
-response = requests.request("POST", url, headers=headers, data=payload)
+response = requests.request("POST", endpoint, headers=headers, data=payload)
 
 print(response.text)
