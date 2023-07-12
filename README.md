@@ -5,4 +5,6 @@ You can checkout the HuggingFace repository [here](https://huggingface.co/Sanyam
 
 [Api.py](https://github.com/Sj0605-DataSci/Whisper-Synth-DL_Intern/tree/main/api.py) defines the endpoint and deployment code.
 
+For deployment purposes and to get an A10 gpu, i used cerebrium's cortex service, Mike founder of Cerebrium, helped me in setting it up via discord
+
 [audiotest](https://github.com/Sj0605-DataSci/Whisper-Synth-DL_Intern/tree/main/audiotest) contains some sample testing code. You can use that to get inference result from the model. (Make sure to change the path to audio file!)
